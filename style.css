@@ -180,6 +180,11 @@ table{
 }
 
 
+/*INPUTS*/
+.inputRange input{
+    margin-left: 10pt;
+}
+
 /*RESPONSIVE media*/
 @media (max-width: 600px) {
     .navSubject ul button{
