@@ -47,7 +47,7 @@ body{
 }
 main{
     background-color: burlywood;
-    width: 98.8%;
+    width: 97.8%;
     border-bottom-right-radius: 10pt;
     box-shadow: 10px 20px 20px;
 }
@@ -135,7 +135,7 @@ main{
 
 .navtab {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 49% 49%;
 }
 .navtab button{
     border-top-left-radius: 5pt;
@@ -222,11 +222,11 @@ a{
     text-decoration-line: none;
     color: black;
 }
-#containerPlan{
+#container{
     display: flex;
     justify-content: center;
 }
-#containerPlan p{
+#container p{
     color: black;
 }
 .planCard{
@@ -237,24 +237,4 @@ a{
     border-top-right-radius: 10pt;
     border-bottom-left-radius: 10pt;
     box-shadow: 1pt 1pt 15pt 1pt;
-}
-
-#containerComment{
-    padding: 20pt;
-}
-.commentCard{
-    float: left;
-    background-color: white;
-    color: black;
-    border-radius: 5pt;
-    margin: 5pt;
-}
-.commentCard p{
-    color: black;
-}
-.commentCard .footerTopic{
-    background-color: #0C1821;
-    color: white;
-    border-bottom-right-radius: 5pt;
-    border-bottom-left-radius: 5pt;
 }
