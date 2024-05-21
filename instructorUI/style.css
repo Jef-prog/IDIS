@@ -221,9 +221,15 @@ a{
     display: flex;
     justify-content: center;
 }
+#container p{
+    color: black;
+}
 .planCard{
     background-color: whitesmoke;
     width: 30%;
     height: 110pt;
     margin: 10pt;
+    border-top-right-radius: 10pt;
+    border-bottom-left-radius: 10pt;
+    box-shadow: 1pt 1pt 15pt 1pt;
 }
