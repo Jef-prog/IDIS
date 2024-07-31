@@ -8,7 +8,8 @@ h3{
 }
 
 input, select{
-    border-style: none;
+    border: none;
+    appearance: none;
 }
 
 h4{
