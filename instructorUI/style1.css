@@ -33,3 +33,11 @@ table{
     padding: 5pt;
 }
 
+li{
+    list-style: upper-alpha;
+    margin-left: 60pt;
+}
+
+p{
+    margin-left: 25pt;
+}
