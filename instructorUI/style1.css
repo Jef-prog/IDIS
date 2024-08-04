@@ -20,3 +20,16 @@ table{
     margin-top: 0%;
     margin: 25pt;
 }
+table{
+    border: none;
+}
+
+.table2, th, .table2 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table2 td input{
+    padding: 5pt;
+}
+
